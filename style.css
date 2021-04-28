@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  border-style: dashed;
+  background-color: lavenderblush;
+  color: teal;
+}
+
+#image {
+  width: 250px;
+  height: 350px;
+}
+
+h2 {
+  font-family: 'Calligraffitti', cursive;
+}
+
+.menu {
+  list-style: none;
+    font-family: cursive;
+  float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+li:hover {
+  text-decoration: underline;
+  color: cadetblue;
+  text-decoration-color: cadetblue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
